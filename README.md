@@ -50,9 +50,9 @@ class getyear:
 
                         print DNI.ix[500,600], timestamp
 
-                        for i in fileyear:
-                            DNI_0=(pd.concat(fileyear))
-                            print DNI_0
+                        for i in DNI:
+                        DNI_0=(pd.concat(DNI))
+                        print DNI_0
 
                         
                         x=timestamp
@@ -62,9 +62,6 @@ class getyear:
                         ax=fig.add_subplot(1,1,1)
                         ax.scatter(x,y)
                         plt.show()
-
-                    longitude=np.arange(112.05, 153.95, 0.05)
-                    latitude=np.arange(-10.05, -43.95,-0.05)
                                               
                               
 z=getyear()
